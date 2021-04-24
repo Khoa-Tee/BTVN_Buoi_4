@@ -1,0 +1,45 @@
+.btn {
+    height: 50px;
+    min-width: 170px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid #8c8585;
+    background-color: transparent;
+    border-radius: 32px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+    color: #333;
+    background-color: white;
+}
+
+.btn--white{
+    color: #333;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px 2px rgb(2 5 24 / 50%);
+}
+
+.btn--white:hover {
+    color: #fff;
+    background-color: #242832;
+}
+
+.btn-VD {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+@media only screen and (max-width: 767px) {
+    .btn {
+        height: 40px;
+        min-width: 150px;
+        text-transform: capitalize;
+    }
+}
