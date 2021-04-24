@@ -1,2 +1,2 @@
 <?php
-require_once("landing-page/index.html");
+    require_once("index.html");
